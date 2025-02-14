@@ -7,9 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
+        // Updated color palette to match SISTEQ Control's brand colors
         base: {
-          50: "#f9f9f9",
-          100: "#efefef",
+          50: "#ffffff", // White
+          100: "#f9f9f9",
           200: "#e6e6e6",
           300: "#dbdbdb",
           400: "#d1d1d1",
@@ -19,7 +20,7 @@ export default {
           800: "#a8a8a8",
           900: "#9e9e9e",
           950: "#949494",
-          DEFAULT: "#f9f9f9",
+          DEFAULT: "#ffffff", // White as the default base color
         },
         "base-dark": {
           50: "#808080",
@@ -33,11 +34,10 @@ export default {
           800: "#2e2e2e",
           900: "#242424",
           950: "#1a1a1a",
-          DEFAULT: "#1a1a1a",
+          DEFAULT: "#1a1a1a", // Dark base color
         },
-
         accent: {
-          50: "#ffffff",
+          50: "#ffffff", // White
           100: "#c7c7c7",
           200: "#b3b3b3",
           300: "#949494",
@@ -47,63 +47,65 @@ export default {
           700: "#292929",
           800: "#1c1c1c",
           900: "#141414",
-          950: "#000000",
-          DEFAULT: "#000000",
-          light: "#ffffff",
-          dark: "#000000",
+          950: "#000000", // Black
+          DEFAULT: "#000000", // Black as the default accent color
+          light: "#ffffff", // White
+          dark: "#000000", // Black
         },
         primary: {
-          50: "#f1fcf1",
-          100: "#e0f9df",
-          200: "#c2f1c1",
-          300: "#92e491",
-          400: "#5acf59",
-          500: "#34b433",
-          DEFAULT: "#228B22",
-          600: "#228b22",
-          700: "#207521",
-          800: "#1e5d1f",
-          900: "#1a4d1b",
-          950: "#092a0b",
+          50: "#ffe6e6", // Light red
+          100: "#ffcccc",
+          200: "#ff9999",
+          300: "#ff6666",
+          400: "#ff3333",
+          500: "#ff0033", // SISTEQ Red (Primary brand color)
+          DEFAULT: "#ff0033", // SISTEQ Red
+          600: "#cc0029",
+          700: "#99001f",
+          800: "#660014",
+          900: "#33000a",
+          950: "#1a0005",
         },
         secondary: {
-          50: "#edfaff",
-          100: "#d6f2ff",
-          200: "#b5eaff",
-          300: "#83dfff",
-          400: "#48cbff",
-          DEFAULT: "#1eadff",
-          500: "#1eadff",
-          600: "#068fff",
-          700: "#007bff",
-          800: "#085ec5",
-          900: "#0d519b",
-          950: "#0e315d",
+          50: "#f9f9f9", // Light gray
+          100: "#efefef",
+          200: "#e6e6e6",
+          300: "#dbdbdb",
+          400: "#d1d1d1",
+          500: "#c7c7c7",
+          DEFAULT: "#c7c7c7", // Gray as the secondary color
+          600: "#bdbdbd",
+          700: "#b3b3b3",
+          800: "#a8a8a8",
+          900: "#9e9e9e",
+          950: "#949494",
         },
         cta: {
-          50: "#ffffe7",
-          100: "#feffc1",
-          200: "#fffd86",
-          300: "#fff441",
-          400: "#ffe60d",
-          DEFAULT: "#ffd700",
-          500: "#ffd700",
-          600: "#d19e00",
-          700: "#a67102",
-          800: "#89580a",
-          900: "#74480f",
-          950: "#442604",
+          50: "#ffe6e6", // Light red
+          100: "#ffcccc",
+          200: "#ff9999",
+          300: "#ff6666",
+          400: "#ff3333",
+          500: "#ff0033", // SISTEQ Red for CTA
+          DEFAULT: "#ff0033", // SISTEQ Red
+          600: "#cc0029",
+          700: "#99001f",
+          800: "#660014",
+          900: "#33000a",
+          950: "#1a0005",
         },
       },
       screens: {
-        midmd: "880px",
+        midmd: "880px", // Custom breakpoint
       },
       boxShadow: {
-        aesthetic: "0 3px 10px rgb(0,0,0,0.2)",
-        dark: "inset 0 1px 0 0 #ffffff0d",
+        aesthetic: "0 3px 10px rgb(0,0,0,0.2)", // Light shadow
+        dark: "inset 0 1px 0 0 #ffffff0d", // Dark shadow
       },
       fontFamily: {
-        sans: ["Raleway", ...defaultTheme.fontFamily.sans],
+        sans: ['Acumin Variable Concept', ...defaultTheme.fontFamily.sans], // Primary font for body text
+        'sf-pro-text': ['SF Pro Text', ...defaultTheme.fontFamily.sans], // SF Pro Text for medium weight
+        'sf-pro-display': ['SF Pro Display', ...defaultTheme.fontFamily.sans], // SF Pro Display for bold headings
       },
     },
   },

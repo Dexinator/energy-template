@@ -3,32 +3,32 @@ import img2 from "./assets/wind-person.png";
 import img3 from "./assets/amazonas2.png";
 
 export const projectsSection = {
-  title: "Featured Projects",
-  subheading1_1: "Explore Our Successful ",
-  subheading1_2: "Green Energy Endeavors",
+  title: "Casos de Éxito",
+  subheading1_1: "Explora Nuestros ",
+  subheading1_2: "Casos de Geolocalización Precisa",
   projects: [
     {
-      title: "Solar-Powered Community",
+      title: "Optimización de Seguridad en Planta Industrial",
       description:
-        "Empowering a community with sustainable solar energy solutions. Learn how [Company Name] brought clean and affordable electricity to homes, schools, and businesses.",
-      location: "Los Angeles, California, USA",
+        "Implementamos geovallas inteligentes y monitoreo en tiempo real para mejorar la seguridad en una planta de manufactura. La solución redujo incidentes en un 40% y optimizó la operatividad del personal.",
+      location: "Monterrey, México",
       visual: img1,
     },
     {
-      title: "Wind Farm Innovation",
+      title: "Gestión Avanzada de Flotas Logísticas",
       description:
-        "Revolutionizing wind energy with our innovative wind farm. Discover how [Company Name] is harnessing the power of the wind to create a greener and more sustainable future.",
-      location: "Scottish Highlands, United Kingdom",
+        "Nuestra tecnología de RTLS permitió a una empresa de logística mejorar la trazabilidad de sus vehículos y reducir tiempos de inactividad, logrando un aumento del 25% en la eficiencia operativa.",
+      location: "Madrid, España",
       visual: img2,
     },
     {
-      title: "Hydropower Plant Success",
+      title: "Monitoreo de Activos en Tiempo Real",
       description:
-        "A journey into our hydropower success story. Explore how [Company Name] transforms the energy of flowing water into a reliable and eco-friendly power source.",
-      location: "Amazon Rainforest, South America",
+        "Implementamos una solución de rastreo en tiempo real para maquinaria pesada en una operación minera, mejorando la eficiencia del mantenimiento y reduciendo costos operativos en un 30%.",
+      location: "Amazonas, Brasil",
       visual: img3,
     },
   ],
-  callToAction: "Embark on a Green Energy Journey with [Company Name]",
-  button: "View More Projects",
+  callToAction: "Descubre cómo nuestra tecnología está transformando industrias.",
+  button: "Ver Más Casos de Éxito",
 };

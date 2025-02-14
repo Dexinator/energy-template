@@ -3,30 +3,30 @@ import imgSolar from "./assets/inno-panel.webp";
 import imgWind from "./assets/inno-wind.webp";
 
 export const innovationsSection = {
-  title: "Latest Innovations",
-  subheading1_1: "Discover Our Cutting-edge",
-  subheading1_2: " Green Energy Technologies",
+  title: "¿Cómo Funciona Nuestra Tecnología?",
+  subheading1_1: "Conoce el funcionamiento",
+  subheading1_2: "de nuestra geolocalización Indoor",
   innovations: [
     {
-      title: "Smart Grid Integration",
+      title: "Celdas Virtuales y Anclas",
       description:
-        "Revolutionize energy distribution with our smart grid technology, optimizing efficiency, minimizing wastage, and adapting to demand fluctuations. Stay connected with innovative solutions for a sustainable, cost-effective energy ecosystem. Embrace the future with our cutting-edge smart grid integration, enhancing reliability and paving the way for efficiency and sustainability.",
+        "Nuestro sistema se basa en la creación de celdas virtuales con anclas estratégicamente ubicadas. Estas anclas actúan como puntos de referencia para rastrear en tiempo real cualquier activo dentro de la zona monitoreada.",
       visual: imgGrid,
     },
     {
-      title: "Advanced Solar Panel Design",
+      title: "Dispositivos RTLS en Objetos y Personas",
       description:
-        "Boost solar efficiency with our state-of-the-art solar panel designs. Our innovative technologies capture more sunlight, ensuring maximum energy production for your home or business. Experience enhanced sustainability and increased energy output with our advanced solar solutions.",
+        "Cada objeto o persona a monitorear cuenta con un dispositivo RTLS que emite señales de posicionamiento. Esto permite un seguimiento preciso y continuo de su ubicación en el espacio definido.",
       visual: imgSolar,
     },
     {
-      title: "Next-gen Wind Turbines",
+      title: "Monitoreo y Análisis en Tiempo Real",
       description:
-        "Transform your wind energy experience with our next-generation wind turbines. Our sleek design, enhanced efficiency, and minimal environmental impact underscore our commitment to innovation. Elevate your sustainable energy journey with cutting-edge wind solutions that prioritize both performance and environmental responsibility.",
+        "La información capturada se procesa en tiempo real para generar reportes, alertas y optimizaciones. Nuestro software permite la integración con otras plataformas para mejorar la toma de decisiones y la seguridad operativa.",
       visual: imgWind,
     },
   ],
   visual: "innovations-section-image.jpg",
-  callToAction: "Explore the Future of Green Energy with [Company Name]",
-  button: "Learn More",
+  callToAction: "Descubre cómo nuestra tecnología transforma la geolocalización Indoor",
+  button: "Saber más",
 };

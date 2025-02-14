@@ -7,53 +7,54 @@ import img4 from "./assets/storage.png";
 import img5 from "./assets/smart-grid.png";
 import img6 from "./assets/green.png";
 
+
 export const servicesSectionData = {
-  title: "Our Sustainable Energy Solutions",
+  title: "Soluciones Avanzadas de Geolocalización",
   subheading: {
-    text1_1: "Experience a Revolution in Energy Solutions - ",
-    text1_2: "Embrace Innovation, Embrace Sustainability.",
+    text1_1: "Precisión y Seguridad en Tiempo Real - ",
+    text1_2: "Optimiza tus Procesos con Nuestra Tecnología.",
     text2:
-      "We're here to Empower Your Life and Spaces with Clean, Renewable Energy, Paving the Way for a Brighter and Greener Tomorrow.",
+      "Mejoramos la eficiencia y seguridad en entornos industriales, logísticos y manufactureros con soluciones de geolocalización de alta precisión.",
   },
   services: [
     {
-      title: "Solar Power Solutions",
+      title: "Geovallas Inteligentes",
       briefDescription:
-        "Harness the power of the sun with our state-of-the-art solar panels. Generate clean energy for your home or business and reduce your carbon footprint.",
+        "Define zonas seguras y restringidas con geovallas dinámicas. Asegura el cumplimiento de protocolos de seguridad y eficiencia en operaciones.",
       visual: img1,
     },
     {
-      title: "Wind Energy Harvesting",
+      title: "RTLS de Alta Precisión",
       briefDescription:
-        "Embrace the power of the wind. Our wind energy solutions provide a sustainable and efficient way to generate electricity, ensuring a greener future.",
+        "Rastrea personas y activos en tiempo real con tecnología Ultra-Wideband (UWB). Obtén visibilidad completa de tu entorno de trabajo.",
       visual: img2,
     },
     {
-      title: "Hydropower Systems",
+      title: "Optimización Logística",
       briefDescription:
-        "Flow with nature. Our hydropower systems harness the energy of flowing water, delivering reliable and eco-friendly electricity to your doorstep.",
+        "Monitorea vehículos y activos en almacenes y centros de distribución. Optimiza rutas y reduce tiempos de inactividad.",
       visual: img3,
     },
     {
-      title: "Energy Storage Solutions",
+      title: "Seguimiento en Manufactura",
       briefDescription:
-        "Store excess energy efficiently. Our cutting-edge energy storage solutions ensure uninterrupted power supply, even during cloudy days or low-wind periods.",
+        "Controla WIPs, herramientas y maquinaria en líneas de producción. Implementa reglas de operación con monitoreo en tiempo real.",
       visual: img4,
     },
     {
-      title: "Smart Grid Technology",
+      title: "Análisis de Datos y Mapas de Calor",
       briefDescription:
-        "Navigate the future with our smart grid technology. Optimize energy distribution, monitor consumption, and contribute to a more sustainable and efficient energy ecosystem.",
+        "Aprovecha herramientas analíticas avanzadas para visualizar el flujo de trabajo, mejorar procesos y tomar decisiones basadas en datos.",
       visual: img5,
     },
     {
-      title: "Energy-efficient Lighting",
+      title: "Seguridad y Prevención de Riesgos",
       briefDescription:
-        "Illuminate your space responsibly. Our energy-efficient lighting solutions provide bright, sustainable, and cost-effective illumination for homes and businesses.",
+        "Detecta y previene riesgos en tiempo real con alertas automáticas. Protege a tu personal y activos con tecnología confiable.",
       visual: img6,
     },
   ],
   callToAction:
-    "Discover the Future of Green Energy. Choose Your Sustainable Solution Today!",
-  buttonText: "Explore More",
+    "Transforma tu empresa con geolocalización precisa. Descubre nuestras soluciones hoy mismo!",
+  buttonText: "Explorar Más",
 };

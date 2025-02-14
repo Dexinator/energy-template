@@ -4,30 +4,30 @@ import svg3 from "./assets/green-3.svg?raw";
 import svg4 from "./assets/green-4.svg?raw";
 
 export const getInvolvedSection = {
-  title: "Get Involved",
-  subheading1_1: "Join Us ",
-  subheading1_2: "in Building a Sustainable Future",
+  title: "Mantente Informado",
+  subheading1_1: "Descubre las",
+  subheading1_2: "últimas actualizaciones y mejoras",
   initiatives: [
     {
-      title: "Community Outreach",
+      title: "Nuevas Funcionalidades",
       description:
-        "Discover our community initiatives aimed at promoting awareness and education on sustainable living. Join us in creating a positive impact together.",
+        "Conoce en detalle cada nueva herramienta y mejora que incorporamos a nuestro sistema para optimizar la seguridad, la logística y la trazabilidad en tiempo real.",
       visual: svg2,
     },
     {
-      title: "Green Events",
+      title: "Actualizaciones del Producto",
       description:
-        "Participate in our upcoming green events. From tree-planting drives to eco-friendly workshops, be a part of the movement towards a healthier planet.",
+        "Mantente al día con las últimas versiones de nuestra tecnología. Descubre mejoras en precisión, integración y facilidad de uso para maximizar el rendimiento de tu empresa.",
       visual: svg4,
     },
     {
-      title: "Partnerships for Sustainability",
+      title: "Colaboraciones y Expansión",
       description:
-        "Explore our partnerships with organizations dedicated to environmental conservation. Learn how you can contribute to sustainable practices through collaboration.",
+        "Explora nuestras nuevas alianzas estratégicas y expansiones de cobertura. Entérate de cómo evolucionamos para ofrecerte soluciones más robustas y adaptadas a tus necesidades.",
       visual: svg3,
     },
   ],
   visual: "get-involved-section-image.jpg",
-  callToAction: "Take Action Today for a Greener Tomorrow",
-  button: "Join Our Initiatives",
+  callToAction: "No te pierdas ninguna actualización de SISTEQ Control",
+  button: "Mantente informado",
 };
