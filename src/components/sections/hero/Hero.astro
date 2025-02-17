@@ -12,8 +12,8 @@ const heroSection = {
   headline2: "Geolocalización",
   headline3: "Indoor con",
   headline4: "SISTEQ Control",
-  subheading1: "Tecnología avanzada para seguridad, logística y manufactura.",
-  subheading2: "Optimización y monitoreo en tiempo real.",
+  subheading1: "Tecnología de última generación.",
+  subheading2: "Monitoreo en tiempo real.",
   subheading3: "Soluciones adaptadas a tu industria.",
   buttonText: "Contáctanos",
   backgroundImage: "hero-background-image.jpg",
@@ -26,12 +26,14 @@ export interface Props {
 const { className = "" } = Astro.props;
 ---
 
+Te comparto mi código
+
 <section class={`relative ${className} w-full h-[80vh]`} id="hero">
   <div class="w-full h-[80vh] pt-[100px]">
     <div
       class="w-full h-full grid grid-cols-1 md:grid-cols-2 justify-end bg-base-100 dark:bg-base-dark-900"
     >
-      <div class="justify-center flex flex-col text-center md:ml-auto px-4 sm:px-6 lg:px-8">
+      <div class="justify-center flex flex-col text-center md:ml-auto">
         <Title className="">
           {heroSection.headline1}
           <GradiantText>
