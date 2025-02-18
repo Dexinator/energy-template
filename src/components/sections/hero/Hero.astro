@@ -9,7 +9,7 @@ import LazyImage from "../../shared/LazyImage.astro";
 
 const heroSection = {
   headline1: "Precisión en",
-  headline2: "Geolocalización",
+  headline2: "Localización",
   headline3: "Indoor con",
   headline4: "SISTEQ Control",
   subheading1: "Tecnología de última generación.",
@@ -48,7 +48,7 @@ const { className = "" } = Astro.props;
           <br />
           {heroSection.subheading3}
         </SubTitle>
-        <div class="pt-10">
+        <div class="hidden md:block pt-10">
           <a href="https://wa.me/+522223733576">
           <CtaButton>{heroSection.buttonText}</CtaButton>
         </a>
