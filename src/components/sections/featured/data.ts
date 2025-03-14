@@ -1,6 +1,6 @@
-import img1 from "./assets/solar-person.png";
-import img2 from "./assets/wind-person.png";
-import img3 from "./assets/amazonas2.png";
+import img1 from "./assets/monterrey.jpg";
+import img2 from "./assets/madrid.jpg";
+import img3 from "./assets/brazil.jpg";
 
 export const projectsSection = {
   title: "Casos de Éxito",
