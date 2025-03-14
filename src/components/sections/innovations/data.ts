@@ -1,6 +1,6 @@
-import imgGrid from "./assets/inno-grid.webp";
-import imgSolar from "./assets/inno-panel.webp";
-import imgWind from "./assets/inno-wind.webp";
+import imgGrid from "./assets/first.webp";
+import imgSolar from "./assets/second.webp";
+import imgWind from "./assets/third.webp";
 
 export const innovationsSection = {
   title: "¿Cómo Funciona Nuestra Tecnología?",
